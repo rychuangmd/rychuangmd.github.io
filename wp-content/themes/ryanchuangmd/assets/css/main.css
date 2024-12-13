@@ -1792,11 +1792,11 @@ body.full-width-content .block {
       .dots-how-we-operate:before {
         display: block; } }
 
-/* Impact - Social Responsibility - Amherst Cares */
-.dots-amherst-cares {
+/* Impact - Social Responsibility - Ryan Chuang Cares */
+.dots-ryanchuangmd-cares {
   position: relative;
   overflow: visible; }
-  .dots-amherst-cares:after {
+  .dots-ryanchuangmd-cares:after {
     content: '';
     display: none;
     width: 25%;
@@ -1809,11 +1809,11 @@ body.full-width-content .block {
     right: 0;
     z-index: -2; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-      .dots-amherst-cares:after {
+      .dots-ryanchuangmd-cares:after {
         background-image: url(../images/dot-pattern@2x.png);
         background-size: 14px 14px; } }
     @media screen and (min-width: 1025px) {
-      .dots-amherst-cares:after {
+      .dots-ryanchuangmd-cares:after {
         display: block; } }
 
 /* Impact - Social Responsibility - Stats */
@@ -4318,7 +4318,7 @@ body.full-width-content .block {
   width: 100%;
   height: 100%; }
 
-.amherst-quote {
+.ryanchuangmd-quote {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -4334,18 +4334,18 @@ body.full-width-content .block {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454b53', endColorstr='#666f7e',GradientType=1 );
   /* IE6-9 */ }
   @media screen and (min-width: 768px) {
-    .amherst-quote {
+    .ryanchuangmd-quote {
       padding: 60px 60px; } }
   @media screen and (min-width: 1200px) {
-    .amherst-quote {
+    .ryanchuangmd-quote {
       padding: 80px 80px; } }
 
-.amherst-quote__inner {
+.ryanchuangmd-quote__inner {
   margin: 0 auto;
   max-width: 1440px; }
 
 @media screen and (min-width: 1024px) {
-  .amherst-quote__grid {
+  .ryanchuangmd-quote__grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
@@ -4357,58 +4357,58 @@ body.full-width-content .block {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .amherst-quote__grid > *:nth-child(1) {
+  .ryanchuangmd-quote__grid > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1; }
-  .amherst-quote__grid > *:nth-child(2) {
+  .ryanchuangmd-quote__grid > *:nth-child(2) {
     -ms-grid-row: 1;
     -ms-grid-column: 3; }
-  .amherst-quote__grid > *:nth-child(3) {
+  .ryanchuangmd-quote__grid > *:nth-child(3) {
     -ms-grid-row: 1;
     -ms-grid-column: 5; }
-  .amherst-quote__grid > *:nth-child(4) {
+  .ryanchuangmd-quote__grid > *:nth-child(4) {
     -ms-grid-row: 1;
     -ms-grid-column: 7; }
-  .amherst-quote__grid > *:nth-child(5) {
+  .ryanchuangmd-quote__grid > *:nth-child(5) {
     -ms-grid-row: 1;
     -ms-grid-column: 9; }
-  .amherst-quote__grid > *:nth-child(6) {
+  .ryanchuangmd-quote__grid > *:nth-child(6) {
     -ms-grid-row: 1;
     -ms-grid-column: 11; }
-  .amherst-quote__grid > *:nth-child(7) {
+  .ryanchuangmd-quote__grid > *:nth-child(7) {
     -ms-grid-row: 1;
     -ms-grid-column: 13; }
-  .amherst-quote__grid > *:nth-child(8) {
+  .ryanchuangmd-quote__grid > *:nth-child(8) {
     -ms-grid-row: 1;
     -ms-grid-column: 15; }
-  .amherst-quote__grid > *:nth-child(9) {
+  .ryanchuangmd-quote__grid > *:nth-child(9) {
     -ms-grid-row: 1;
     -ms-grid-column: 17; }
-  .amherst-quote__grid > *:nth-child(10) {
+  .ryanchuangmd-quote__grid > *:nth-child(10) {
     -ms-grid-row: 1;
     -ms-grid-column: 19; }
-  .amherst-quote__grid > *:nth-child(11) {
+  .ryanchuangmd-quote__grid > *:nth-child(11) {
     -ms-grid-row: 1;
     -ms-grid-column: 21; }
-  .amherst-quote__grid > *:nth-child(12) {
+  .ryanchuangmd-quote__grid > *:nth-child(12) {
     -ms-grid-row: 1;
     -ms-grid-column: 23; } }
 
-.amherst-quote__grid__text {
+.ryanchuangmd-quote__grid__text {
   -ms-grid-column: 2;
   -ms-grid-column-span: 6;
   grid-column: 2 / span 6;
   -ms-grid-row: 1;
   grid-row: 1; }
 
-.amherst-quote__grid__image {
+.ryanchuangmd-quote__grid__image {
   -ms-grid-column: 8;
   -ms-grid-column-span: 4;
   grid-column: 8 / span 4;
   -ms-grid-row: 1;
   grid-row: 1; }
 
-.amherst-quote__blockquote {
+.ryanchuangmd-quote__blockquote {
   border: none;
   color: #fff;
   font-size: 1.4rem;
@@ -4418,97 +4418,97 @@ body.full-width-content .block {
   position: relative;
   text-align: center; }
   @media screen and (min-width: 768px) {
-    .amherst-quote__blockquote {
+    .ryanchuangmd-quote__blockquote {
       font-size: 1.5rem;
       line-height: 1.4; } }
   @media screen and (min-width: 1024px) {
-    .amherst-quote__blockquote {
+    .ryanchuangmd-quote__blockquote {
       font-size: 2.25rem;
       text-align: left; } }
 
-.amherst-quote__blockquote__text {
+.ryanchuangmd-quote__blockquote__text {
   text-indent: -0.875rem; }
-  .not-admin .amherst-quote__blockquote.inview .amherst-quote__blockquote__text {
+  .not-admin .ryanchuangmd-quote__blockquote.inview .ryanchuangmd-quote__blockquote__text {
     opacity: 0;
     -webkit-transition: all 750ms ease-out;
     transition: all 750ms ease-out; }
-  .not-admin .amherst-quote__blockquote.inview.visible .amherst-quote__blockquote__text {
+  .not-admin .ryanchuangmd-quote__blockquote.inview.visible .ryanchuangmd-quote__blockquote__text {
     opacity: 1; }
-  .amherst-quote__blockquote__text:before {
+  .ryanchuangmd-quote__blockquote__text:before {
     color: #fff;
     content: '\201C';
     display: inline; }
-  .amherst-quote__blockquote__text:after {
+  .ryanchuangmd-quote__blockquote__text:after {
     color: #fff;
     content: '\201D';
     display: inline; }
 
-.amherst-quote__blockquote__cite {
+.ryanchuangmd-quote__blockquote__cite {
   display: block;
   margin: 20px 0 0; }
   @media screen and (min-width: 728px) {
-    .amherst-quote__blockquote__cite {
+    .ryanchuangmd-quote__blockquote__cite {
       margin-top: 30px; } }
 
-.amherst-quote__blockquote__cite__line {
+.ryanchuangmd-quote__blockquote__cite__line {
   display: block;
   background-color: #4375C7;
   height: 5px;
   width: 100px;
   margin: 0 auto; }
   @media screen and (min-width: 728px) {
-    .amherst-quote__blockquote__cite__line {
+    .ryanchuangmd-quote__blockquote__cite__line {
       margin: 0; } }
-  .not-admin .amherst-quote__blockquote.inview .amherst-quote__blockquote__cite__line {
+  .not-admin .ryanchuangmd-quote__blockquote.inview .ryanchuangmd-quote__blockquote__cite__line {
     width: 0;
     -webkit-transition: all 500ms ease-out 250ms;
     transition: all 500ms ease-out 250ms; }
-  .not-admin .amherst-quote__blockquote.inview.visible .amherst-quote__blockquote__cite__line {
+  .not-admin .ryanchuangmd-quote__blockquote.inview.visible .ryanchuangmd-quote__blockquote__cite__line {
     width: 100px; }
 
-.amherst-quote__blockquote__cite__name {
+.ryanchuangmd-quote__blockquote__cite__name {
   color: #fff;
   font-weight: 600;
   font-size: 1.250rem;
   display: block;
   margin: 20px 0 0; }
   @media screen and (min-width: 728px) {
-    .amherst-quote__blockquote__cite__name {
+    .ryanchuangmd-quote__blockquote__cite__name {
       font-size: 1.500rem;
       margin-top: 30px; } }
-  .not-admin .amherst-quote__blockquote.inview .amherst-quote__blockquote__cite__name {
+  .not-admin .ryanchuangmd-quote__blockquote.inview .ryanchuangmd-quote__blockquote__cite__name {
     opacity: 0;
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
     -webkit-transition: all 500ms ease-out 500ms;
     transition: all 500ms ease-out 500ms; }
-  .not-admin .amherst-quote__blockquote.inview.visible .amherst-quote__blockquote__cite__name {
+  .not-admin .ryanchuangmd-quote__blockquote.inview.visible .ryanchuangmd-quote__blockquote__cite__name {
     opacity: 1;
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-.amherst-quote__blockquote__cite__title {
+.ryanchuangmd-quote__blockquote__cite__title {
   color: #fff;
   font-size: 1.188rem;
   font-weight: 300;
   display: block;
   margin: 0; }
   @media screen and (min-width: 728px) {
-    .amherst-quote__blockquote__cite__title {
+    .ryanchuangmd-quote__blockquote__cite__title {
       font-size: 1.500rem;
       margin-top: 2px; } }
-  .not-admin .amherst-quote__blockquote.inview .amherst-quote__blockquote__cite__title {
+  .not-admin .ryanchuangmd-quote__blockquote.inview .ryanchuangmd-quote__blockquote__cite__title {
     opacity: 0;
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
     -webkit-transition: all 500ms ease-out 750ms;
     transition: all 500ms ease-out 750ms; }
-  .not-admin .amherst-quote__blockquote.inview.visible .amherst-quote__blockquote__cite__title {
+  .not-admin .ryanchuangmd-quote__blockquote.inview.visible .ryanchuangmd-quote__blockquote__cite__title {
     opacity: 1;
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-.amherst-quote__figure {
+.ryanchuangmd-quote__figure {
   margin: 15px auto 0;
   padding: 0;
   overflow: hidden;
@@ -4518,27 +4518,27 @@ body.full-width-content .block {
   position: relative;
   z-index: 1; }
   @media screen and (min-width: 768px) {
-    .amherst-quote__figure {
+    .ryanchuangmd-quote__figure {
       margin: 30px auto 0;
       width: 120px;
       height: 120px;
       border-radius: 80px; } }
   @media screen and (min-width: 1024px) {
-    .amherst-quote__figure {
+    .ryanchuangmd-quote__figure {
       margin: 0 auto;
       width: 75%;
       height: 0;
       border-radius: 50%;
       padding: 75% 0 0; } }
 
-.amherst-quote__figure__inner {
+.ryanchuangmd-quote__figure__inner {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
 
-.amherst-quote__figure__image {
+.ryanchuangmd-quote__figure__image {
   position: absolute;
   top: 0;
   left: 0;
@@ -4547,12 +4547,12 @@ body.full-width-content .block {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 0; }
-  .not-admin .amherst-quote__figure.inview .amherst-quote__figure__image {
+  .not-admin .ryanchuangmd-quote__figure.inview .ryanchuangmd-quote__figure__image {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 1500ms ease-out;
     transition: all 1500ms ease-out; }
-  .not-admin .amherst-quote__figure.inview.visible .amherst-quote__figure__image {
+  .not-admin .ryanchuangmd-quote__figure.inview.visible .ryanchuangmd-quote__figure__image {
     -webkit-transform: scale(1);
             transform: scale(1); }
 
