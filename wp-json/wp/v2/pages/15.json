@@ -1,0 +1,273 @@
+{
+    "id": 15,
+    "date": "2021-10-16T16:38:21",
+    "date_gmt": "2021-10-16T16:38:21",
+    "guid":
+    {
+        "rendered": "https://ryanchuangmd.wpengine.com/?page_id=15"
+    },
+    "modified": "2024-11-07T01:24:34",
+    "modified_gmt": "2024-11-07T01:24:34",
+    "slug": "home",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.ryanchuangmd.com/",
+    "title":
+    {
+        "rendered": "Home"
+    },
+    "content":
+    {
+        "rendered": "<section id=\"home-hero-block_9c8c9a6b404cb30a10ebe09630b6d9fc\" class=\"home-hero\"><div class=\"home-hero__inner\"><div class=\"home-hero__gallery-wrapper\"><figure class=\"home-hero__gallery\"><img decoding=\"async\" class=\"home-hero__gallery__image\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2023/02/home-hero@2x-scaled.jpg\" alt=\"\" /></figure></div><div class=\"home-hero__overlay\"></div><div class=\"home-hero__text\"><div class=\"home-hero__text__inner\"><h1 class=\"home-hero__headline\">We are on a mission <br /><em> to reimagine real estate </em></h1></div></div><div class=\"home-hero__bottom\"><svg class=\"home-hero__shape\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1601 38.93\"><path d=\"M0,38.93C175.14,16.35,463,0,788.5,0c340.81,0,640.42,14.53,812.5,38.93Z\"/></svg><button class=\"home-hero__button\" aria-label=\"Scroll to next section\"><svg class=\"home-hero__button__arrow\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 31.113 16.971\"><g transform=\"translate(23.335 -1137.735) rotate(45)\"><rect width=\"22\" height=\"2\" transform=\"translate(789 820)\"/><rect width=\"22\" height=\"2\" transform=\"translate(811 800) rotate(90)\"/></g></svg></button></div></div></section>\n\n<div id=\"into\" class=\"block bg-home-intro-gradient block--reduced-top-padding\"><div class=\"block__inner\">\n<style>@media screen and (min-width: 1440px) { \r#single-column-block_434e0cb12b1e746fe5e9ec251258543c .single-column__inner {grid-column: 4 / span 6 ;}\r }</style><div id=\"single-column-block_434e0cb12b1e746fe5e9ec251258543c\" class=\"single-column\"><div class=\"single-column__inner\">\n\n<p class=\"has-text-align-center\">Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer.</p>\n\n</div></div>\n\n\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n\n<div style=\"height:40px\" aria-hidden=\"true\" class=\"wp-block-spacer hide-on-mobile\"></div>\n\n\n\n<div class=\"wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex\">\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\">\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n<div id=\"hover-card-block_09161577c49a3387a06aa70bc0447932\" class=\"hover-card\"><figure class=\"hover-card__figure\"><img loading=\"lazy\" decoding=\"async\" width=\"856\" height=\"854\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2022/01/data-driven@2x.jpg\" class=\"hover-card__figure__image\" alt=\"\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2022/01/data-driven@2x.jpg 856w, https://www.ryanchuangmd.com/wp-content/uploads/2022/01/data-driven@2x-300x300.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2022/01/data-driven@2x-150x150.jpg 150w, https://www.ryanchuangmd.com/wp-content/uploads/2022/01/data-driven@2x-768x766.jpg 768w\" sizes=\"(max-width: 856px) 100vw, 856px\" /><div class=\"hover-card__duotone\"></div><div class=\"hover-card__overlay\"></div><div class=\"hover-card__gradient\"></div></figure><div class=\"hover-card__arrow\"><svg class=\"hover-card__arrow__image\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18.938 10.992\"><path d=\"M25.859,20.328l-5.5,5.5V21.336H6.922V19.309H20.363l.012-4.477Z\" transform=\"translate(-6.921 -14.832)\"/></svg></div><div class=\"hover-card__front\"><h2 class=\"hover-card__title\">Data Driven</h2><h3 class=\"hover-card__subtitle\">Foresight fueled by robust data and proprietary analytics</h3><p class=\"hover-card__description\">We have spent decades gathering hundreds of data points on millions of assets, and our proprietary analytical models allow us to spot patterns and anticipate asset behavior as market conditions change. Our team of experts combines these insights with our collective experience to develop data-driven strategies. We have invested $100 million over the past five years to ensure we capture and use data across key decision points. </p></div></div></div>\n\n\n\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\">\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n<div id=\"hover-card-block_31c5fcdee2a85620ebd87d2a70fe665b\" class=\"hover-card\"><figure class=\"hover-card__figure\"><img loading=\"lazy\" decoding=\"async\" width=\"856\" height=\"854\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/vertically-integrated@2x.jpg\" class=\"hover-card__figure__image\" alt=\"Front of house\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/vertically-integrated@2x.jpg 856w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/vertically-integrated@2x-300x300.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/vertically-integrated@2x-150x150.jpg 150w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/vertically-integrated@2x-768x766.jpg 768w\" sizes=\"(max-width: 856px) 100vw, 856px\" /><div class=\"hover-card__duotone\"></div><div class=\"hover-card__overlay\"></div><div class=\"hover-card__gradient\"></div></figure><div class=\"hover-card__arrow\"><svg class=\"hover-card__arrow__image\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18.938 10.992\"><path d=\"M25.859,20.328l-5.5,5.5V21.336H6.922V19.309H20.363l.012-4.477Z\" transform=\"translate(-6.921 -14.832)\"/></svg></div><div class=\"hover-card__front\"><h2 class=\"hover-card__title\">Vertically Integrated</h2><h3 class=\"hover-card__subtitle\">Efficiency through alignment across in-house services</h3><p class=\"hover-card__description\"></p></div></div></div>\n\n\n\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\">\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n<div id=\"hover-card-block_ebce98b03b42ea7211b27ed46fd42220\" class=\"hover-card\"><figure class=\"hover-card__figure\"><img loading=\"lazy\" decoding=\"async\" width=\"856\" height=\"854\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/market-tested@2x.jpg\" class=\"hover-card__figure__image\" alt=\"Intersection\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/market-tested@2x.jpg 856w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/market-tested@2x-300x300.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/market-tested@2x-150x150.jpg 150w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/market-tested@2x-768x766.jpg 768w\" sizes=\"(max-width: 856px) 100vw, 856px\" /><div class=\"hover-card__duotone\"></div><div class=\"hover-card__overlay\"></div><div class=\"hover-card__gradient\"></div></figure><div class=\"hover-card__arrow\"><svg class=\"hover-card__arrow__image\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18.938 10.992\"><path d=\"M25.859,20.328l-5.5,5.5V21.336H6.922V19.309H20.363l.012-4.477Z\" transform=\"translate(-6.921 -14.832)\"/></svg></div><div class=\"hover-card__front\"><h2 class=\"hover-card__title\">Market Tested</h2><h3 class=\"hover-card__subtitle\">Insights you can trust</h3><p class=\"hover-card__description\">.</p></div></div></div>\n</div>\n\n</div></div>\n\n<div id=\"stats\" class=\"block dots-home-stats-top-left dots-home-stats-bottom-right dots-home-stats-inner-block none\"><div class=\"block__inner\">\n\n<p class=\"has-text-align-center leading-title\">BY THE NUMBERS</p>\n\n\n\n<div style=\"height:30px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n\n\n<div id=\"stats-block_a532e9ae17a4ede9c1f3357414106494\" class=\"stats\"><ul class=\"stats-list\"><li class=\"stats-list__item\"><span class=\"stats-list__item__number\">$18.5B</span><span class=\"stats-list__item__label\">Assets Under Management</span></li><li class=\"stats-list__item\"><span class=\"stats-list__item__number\">32</span><span class=\"stats-list__item__label\">U.S. Markets</span></li><li class=\"stats-list__item\"><span class=\"stats-list__item__number\">45,000+</span><span class=\"stats-list__item__label\">Homes Under Management</span></li></ul></div>\n\n\n<p class=\"has-text-align-center footnote\">As of December 31, 2023</p>\n\n</div></div>\n\n<div id=\"big-thinking\" class=\"block padding-bottom none\"><div class=\"block__inner\">\n<style>\r@media screen and (min-width: 1440px) { \r#image-cluster-one-text-block_e110e203e23f8868b6146a6b02ecd757 .image-text__image {grid-column: 6 / span 7 ;}\r\r#image-cluster-one-text-block_e110e203e23f8868b6146a6b02ecd757 .image-text__text {grid-column: 1 / span 5 ;}\r }</style><section id=\"image-cluster-one-text-block_e110e203e23f8868b6146a6b02ecd757\" class=\"image-text\" data-id=\"block_e110e203e23f8868b6146a6b02ecd757\"><div class=\"image-text__image\"><figure class=\"image-cluster-one inview\"><div class=\"image-cluster-one__one\"><img loading=\"lazy\" decoding=\"async\" width=\"478\" height=\"628\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/house-sunset@2x.jpg\" class=\"attachment-full size-full\" alt=\"House sunset behind tree\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/house-sunset@2x.jpg 478w, https://www.ryanchuangmd.com/wp-content/uploads/2021/10/house-sunset@2x-228x300.jpg 228w\" sizes=\"(max-width: 478px) 100vw, 478px\" /></div><div class=\"image-cluster-one__two\"><img loading=\"lazy\" decoding=\"async\" width=\"767\" height=\"628\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/woman-crossing-arms@2x.jpg\" class=\"attachment-full size-full\" alt=\"Woman standing confidently crossing arms and smiling\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/woman-crossing-arms@2x.jpg 767w, https://www.ryanchuangmd.com/wp-content/uploads/2021/11/woman-crossing-arms@2x-300x246.jpg 300w\" sizes=\"(max-width: 767px) 100vw, 767px\" /></div><div class=\"image-cluster-one__three\"><img loading=\"lazy\" decoding=\"async\" width=\"1289\" height=\"634\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/austin-congress-ave@2x.jpg\" class=\"attachment-full size-full\" alt=\"Looking down Congress Ave at buildings and capitol building in Austin, Tx\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/austin-congress-ave@2x.jpg 1289w, https://www.ryanchuangmd.com/wp-content/uploads/2021/11/austin-congress-ave@2x-300x148.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2021/11/austin-congress-ave@2x-1024x504.jpg 1024w, https://www.ryanchuangmd.com/wp-content/uploads/2021/11/austin-congress-ave@2x-768x378.jpg 768w\" sizes=\"(max-width: 1289px) 100vw, 1289px\" /></div></figure></div><div class=\"image-text__text\">\n\n<h2 class=\"wp-block-heading h1\" id=\"big-thinking\"><meta charset=\"utf-8\">Big <em>Thinking</em></h2>\n\n\n\n<p>We are a team of creative problem solvers with a Texas-sized imagination of what is possible. Our sophisticated market insights, precise execution capabilities, and entrepreneurial approach transform ‘moonshots’ into realities.</p>\n\n\n<div id=\"button-block_fb9e8530e5d00f170a75b9c26dde7eeb\" class=\"button-block left\"><div class=\"button-block__inner\"><a href=\"/firm/\" title=\"View\" class=\"button-block__link button-block__link--text\">Firm<span class=\"button-block__link__arrow\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 10\"><path d=\"M5,0l5,8H0Z\" transform=\"translate(8) rotate(90)\"/></svg></span></a></div></div>\n</div></section>\n</div></div>\n\n<div id=\"research\" class=\"block padding-bottom light-gray\"><div class=\"block__inner\">\n<div id=\"feat-news-posts-block_d9af44c72c060491f07a794c80442293\" class=\"feat-news-posts\"><div class=\"feat-news-posts__top\"><h2 class=\"h1\">Research <em>&amp; Insights</em></h2><div class=\"feat-news-posts__top__link\"><a href=\"/insights/\" title=\"View\" class=\"button-block__link button-block__link--text\">View More<span class=\"button-block__link__arrow\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 10\"><path d=\"M5,0l5,8H0Z\" transform=\"translate(8) rotate(90)\"/></svg></span></a></div></div><div class=\"feat-news-posts__bottom\"><div class=\"feat-news-posts__bottom__one\"><article class=\"feat-news-posts__large\"><a class=\"feat-news-posts__large__link\" href=\"https://www.ryanchuangmd.com/insights/2022-impact-report/\" title=\"View\"><figure class=\"feat-news-posts__large__figure \"><div class=\"feat-news-posts__large__figure__badge\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18.5 24.386\"><path d=\"M0-2H18.5V22.386L9.156,14.011,0,22.386Z\" transform=\"translate(0 2)\" /></svg><span>Featured</span></div><img loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"838\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px.jpg\" class=\"feat-news-posts__large__figure__image wp-post-image\" alt=\"\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px.jpg 1600w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px-300x157.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px-1024x536.jpg 1024w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px-768x402.jpg 768w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/ESG_Digital_Header_Web_Email_V5_WebPageHeader_1600x838px-1536x804.jpg 1536w\" sizes=\"(max-width: 1600px) 100vw, 1600px\" /></figure><div class=\"feat-news-posts__large__text\"><div class=\"feat-news-posts__large__cat\">Research</div><h3 class=\"feat-news-posts__large__title\">2022 Impact Report</h3><div class=\"feat-news-posts__large__date\">February 22, 2023</div></div></a></article></div><div class=\"feat-news-posts__bottom__two\"><article class=\"feat-news-posts__small\"><a class=\"feat-news-posts__small__link\" href=\"https://www.ryanchuangmd.com/insights/market-outlook-2023/\" title=\"View\"><figure class=\"feat-news-posts__small__figure feat-news-posts__small__figure--secondary-image \"><img loading=\"lazy\" decoding=\"async\" width=\"1001\" height=\"1001\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2023/02/2023-Market-Outlook_Homepage-Tile.jpg\" class=\"feat-news-posts__small__figure__image \" alt=\"\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2023/02/2023-Market-Outlook_Homepage-Tile.jpg 1001w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/2023-Market-Outlook_Homepage-Tile-300x300.jpg 300w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/2023-Market-Outlook_Homepage-Tile-150x150.jpg 150w, https://www.ryanchuangmd.com/wp-content/uploads/2023/02/2023-Market-Outlook_Homepage-Tile-768x768.jpg 768w\" sizes=\"(max-width: 1001px) 100vw, 1001px\" /></figure><div class=\"feat-news-posts__small__text\"><div class=\"feat-news-posts__small__cat\">Research</div><h3 class=\"feat-news-posts__small__title\">2023 Market Outlook</h3><div class=\"feat-news-posts__small__date\">February 2, 2023</div></div></a></article><article class=\"feat-news-posts__small\"><a class=\"feat-news-posts__small__link\" href=\"https://www.ryanchuangmd.com/insights/sean-dobson-on-bloomberg-radio/\" title=\"View\"><figure class=\"feat-news-posts__small__figure \"><img loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"628\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2019/03/Bloomberg-Press-Logo.png\" class=\"feat-news-posts__small__figure__image wp-post-image\" alt=\"Bloomberg Logo\" srcset=\"https://www.ryanchuangmd.com/wp-content/uploads/2019/03/Bloomberg-Press-Logo.png 1200w, https://www.ryanchuangmd.com/wp-content/uploads/2019/03/Bloomberg-Press-Logo-300x157.png 300w, https://www.ryanchuangmd.com/wp-content/uploads/2019/03/Bloomberg-Press-Logo-1024x536.png 1024w, https://www.ryanchuangmd.com/wp-content/uploads/2019/03/Bloomberg-Press-Logo-768x402.png 768w\" sizes=\"(max-width: 1200px) 100vw, 1200px\" /></figure><div class=\"feat-news-posts__small__text\"><div class=\"feat-news-posts__small__cat\">Press Releases &amp; Media Coverage</div><h3 class=\"feat-news-posts__small__title\">Sean Dobson on Bloomberg Radio</h3><div class=\"feat-news-posts__small__date\">May 4, 2023</div></div></a></article></div><div class=\"feat-news-posts__bottom__link\"><a href=\"/insights/\" title=\"View\" class=\"button-block__link button-block__link--text\">View More<span class=\"button-block__link__arrow\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 10\"><path d=\"M5,0l5,8H0Z\" transform=\"translate(8) rotate(90)\"/></svg></span></a></div></div></div>\n</div></div>\n\n<section id=\"cta-block_a6c7bde50f45b63c393aaa0808018057\" class=\"cta newsletter-cta\"><figure class=\"cta__figure\"><img decoding=\"async\" class=\"cta__figure__image\" src=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/cta-bg@2x-scaled.jpg\" alt=\"Pattern background\" /></figure><div class=\"cta__text\"><div class=\"cta__title\"></div><h2 class=\"cta__headline\">Follow Our Research &amp; Insights</h2><div class=\"cta__button\"><div class=\"button-block middle\"><div class=\"button-block__inner\"><a href=\"#\" title=\"View\" class=\"button-block__link button-block__link--accent\">Subscribe<span class=\"button-block__link__arrow\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 10\"><path d=\"M5,0l5,8H0Z\" transform=\"translate(8) rotate(90)\"/></svg></span></a></div\"></div\"></div\"></div\"></section>",
+        "protected": false
+    },
+    "excerpt":
+    {
+        "rendered": "",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 89,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta":
+    {
+        "_acf_changed": false,
+        "footnotes": ""
+    },
+    "class_list":
+    [
+        "post-15",
+        "page",
+        "type-page",
+        "status-publish",
+        "has-post-thumbnail",
+        "hentry"
+    ],
+    "acf":
+    [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v24.0 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer</title>\n<meta name=\"description\" content=\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.ryanchuangmd.com/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer\" />\n<meta property=\"og:description\" content=\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer.\" />\n<meta property=\"og:url\" content=\"https://www.ryanchuangmd.com/\" />\n<meta property=\"og:site_name\" content=\"Ryan Chuang, MD\" />\n<meta property=\"article:modified_time\" content=\"2024-11-07T01:24:34+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1373\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.ryanchuangmd.com/\",\"url\":\"https://www.ryanchuangmd.com/\",\"name\":\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer\",\"isPartOf\":{\"@id\":\"https://www.ryanchuangmd.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://www.ryanchuangmd.com/#primaryimage\"},\"image\":{\"@id\":\"https://www.ryanchuangmd.com/#primaryimage\"},\"thumbnailUrl\":\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg\",\"datePublished\":\"2021-10-16T16:38:21+00:00\",\"dateModified\":\"2024-11-07T01:24:34+00:00\",\"description\":\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer.\",\"breadcrumb\":{\"@id\":\"https://www.ryanchuangmd.com/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://www.ryanchuangmd.com/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://www.ryanchuangmd.com/#primaryimage\",\"url\":\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg\",\"contentUrl\":\"https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg\",\"width\":2560,\"height\":1373,\"caption\":\"Row of houses\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.ryanchuangmd.com/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.ryanchuangmd.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://www.ryanchuangmd.com/#website\",\"url\":\"https://www.ryanchuangmd.com/\",\"name\":\"Ryan Chuang, MD\",\"description\":\"Ryan J. Chuang, MD, MPhil - Robotic Surgeon specializing in prostate and renal cancer\",\"publisher\":{\"@id\":\"https://www.ryanchuangmd.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.ryanchuangmd.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://www.ryanchuangmd.com/#organization\",\"name\":\"Ryan Chuang, MD\",\"url\":\"https://www.ryanchuangmd.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://www.ryanchuangmd.com/#/schema/logo/image/\",\"url\":\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/ryanchuangmd-logo.jpg\",\"contentUrl\":\"https://www.ryanchuangmd.com/wp-content/uploads/2021/11/ryanchuangmd-logo.jpg\",\"width\":1000,\"height\":466,\"caption\":\"Ryan Chuang, MD\"},\"image\":{\"@id\":\"https://www.ryanchuangmd.com/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json":
+    {
+        "title": "Ryan J. Chuang, MD, MPhil",
+        "description": "Robotic Surgeon specializing in prostate and renal cancer",
+        "robots":
+        {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://www.ryanchuangmd.com/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Ryan J. Chuang, MD, MPhil",
+        "og_description": "Robotic Surgeon specializing in prostate and renal cancer.",
+        "og_url": "https://www.ryanchuangmd.com/",
+        "og_site_name": "Ryan J. Chuang, MD, MPhil",
+        "article_modified_time": "2024-11-07T01:24:34+00:00",
+        "og_image":
+        [
+            {
+                "width": 2560,
+                "height": 1373,
+                "url": "https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg",
+                "type": "image/jpeg"
+            }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_misc":
+        {
+            "Est. reading time": "1 minute"
+        },
+        "schema":
+        {
+            "@context": "https://schema.org",
+            "@graph":
+            [
+                {
+                    "@type": "WebPage",
+                    "@id": "https://www.ryanchuangmd.com/",
+                    "url": "https://www.ryanchuangmd.com/",
+                    "name": "Ryan J. Chuang, MD, MPhil",
+                    "isPartOf":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#website"
+                    },
+                    "primaryImageOfPage":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#primaryimage"
+                    },
+                    "image":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#primaryimage"
+                    },
+                    "thumbnailUrl": "https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg",
+                    "datePublished": "2021-10-16T16:38:21+00:00",
+                    "dateModified": "2024-11-07T01:24:34+00:00",
+                    "description": "Robotic Surgeon specializing in prostate and renal cancer.",
+                    "breadcrumb":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#breadcrumb"
+                    },
+                    "inLanguage": "en-US",
+                    "potentialAction":
+                    [
+                        {
+                            "@type": "ReadAction",
+                            "target":
+                            [
+                                "https://www.ryanchuangmd.com/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "ImageObject",
+                    "inLanguage": "en-US",
+                    "@id": "https://www.ryanchuangmd.com/#primaryimage",
+                    "url": "https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg",
+                    "contentUrl": "https://www.ryanchuangmd.com/wp-content/uploads/2021/10/row-of-houses@2x-scaled.jpg",
+                    "width": 2560,
+                    "height": 1373,
+                    "caption": "Row of houses"
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://www.ryanchuangmd.com/#breadcrumb",
+                    "itemListElement":
+                    [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.ryanchuangmd.com/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Home"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://www.ryanchuangmd.com/#website",
+                    "url": "https://www.ryanchuangmd.com/",
+                    "name": "Ryan J. Chuang, MD, MPhil",
+                    "description": "Robotic Surgeon specializing in prostate and renal cancer",
+                    "publisher":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#organization"
+                    },
+                    "potentialAction":
+                    [
+                        {
+                            "@type": "SearchAction",
+                            "target":
+                            {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https://www.ryanchuangmd.com/?s={search_term_string}"
+                            },
+                            "query-input":
+                            {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
+                        }
+                    ],
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://www.ryanchuangmd.com/#organization",
+                    "name": "Ryan J. Chuang, MD, MPhil",
+                    "url": "https://www.ryanchuangmd.com/",
+                    "logo":
+                    {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https://www.ryanchuangmd.com/#/schema/logo/image/",
+                        "url": "https://www.ryanchuangmd.com/wp-content/uploads/2021/11/ryanchuangmd-logo.jpg",
+                        "contentUrl": "https://www.ryanchuangmd.com/wp-content/uploads/2021/11/ryanchuangmd-logo.jpg",
+                        "width": 1000,
+                        "height": 466,
+                        "caption": "Ryan J. Chuang, MD, MPhil"
+                    },
+                    "image":
+                    {
+                        "@id": "https://www.ryanchuangmd.com/#/schema/logo/image/"
+                    }
+                }
+            ]
+        }
+    },
+    "_links":
+    {
+        "self":
+        [
+            {
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/pages/15"
+            }
+        ],
+        "collection":
+        [
+            {
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/pages"
+            }
+        ],
+        "about":
+        [
+            {
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/types/page"
+            }
+        ],
+        "author":
+        [
+            {
+                "embeddable": true,
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/users/1"
+            }
+        ],
+        "replies":
+        [
+            {
+                "embeddable": true,
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/comments?post=15"
+            }
+        ],
+        "version-history":
+        [
+            {
+                "count": 0,
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/pages/15/revisions"
+            }
+        ],
+        "wp:featuredmedia":
+        [
+            {
+                "embeddable": true,
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/media/89"
+            }
+        ],
+        "wp:attachment":
+        [
+            {
+                "href": "https://www.ryanchuangmd.com/wp-json/wp/v2/media?parent=15"
+            }
+        ],
+        "curies":
+        [
+            {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
