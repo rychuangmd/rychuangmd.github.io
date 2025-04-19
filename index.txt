@@ -3,25 +3,7 @@
 <html class="html not-admin" lang="en-US">
 <head class="html"><!--Consider replacing images with optimized WebP versions for faster load times.-->
 
-<style type="text/css">
-        .social-links {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
 
-        .social-links__icon {
-            display: inline-block;
-        }
-
-        .social-links__icon__svg {
-            display: block;
-            width: 30px;
-            height: 30px;
-            fill: currentColor;
-        }
-    </style>
-    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCWX23VR6P"></script>
 <script>
@@ -275,7 +257,7 @@
                         <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
                         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet"/>
                     </meta>
-                    <link rel="icon" href="favicon.ico" sizes="any">
+                    <link rel="icon" type="image/svg+xml" href="https://ryanchuangmd.com/file.svg">
                 </head>
                 <body class="home page-template-default page page-id-15 wp-custom-logo wp-embed-responsive full-width-content" id="body">
                     <header class="header">
