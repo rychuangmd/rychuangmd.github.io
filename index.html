@@ -329,16 +329,17 @@
                                 <p class="has-text-align-center">
                                     Ryan J. Chuang, MD, MPhil - Urologist and Robotic Surgeon
                                 </p>
-<div class="location-section">
-            <h2>Our Location</h2>
-            
-            <div class="loading-container active" id="loading">
-                <p>Loading location information...</p>
-            </div>
-            
-            <div class="error-message" id="error-message">
-                Unable to load the location map. Please refresh the page or try again later.
-            </div>
+<div class="loading-container active" id="loading">
+        <p>Loading location information...</p>
+    </div>
+    
+    <div class="error-message" id="error-message">
+        Unable to load the location map. Please refresh the page or try again later.
+    </div>
+    
+    <!-- The store locator element that will be enhanced by the script -->
+    <div id="gmp-map-container" style="height: 500px; width: 100%;"></div>
+</div>
             
             <gmpx-store-locator map-id="DEMO_MAP_ID"></gmpx-store-locator>
         </div>
@@ -480,30 +481,32 @@
     <script src="https://unpkg.com/@googlemaps/extended-component-library@0.4"></script>
     
     <script>
-      const CONFIGURATION = {
-        "locations": [
+// Configuration for the map and location
+  const CONFIGURATION = {
+    "locations": [
+      {
+        "title": "Ryan J. Chuang, MD",
+        "address1": "100 Hospital Rd.",
+        "address2": "Patchogue, NY, United States",
+        "coords": {"lat": 40.7796942, "lng": -72.9789299},
+        "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
+        "actions": [
           {
-            "title":"Ryan J. Chuang, MD",
-            "address1":"100 Hospital Rd.",
-            "address2":"Patchogue, NY, United States",
-            "coords":{"lat":40.7796942,"lng":-72.9789299},
-            "placeId":"ChIJx_QS59t7wokR9GHHkDCM9lY",
-            "actions":[
-              {
-                "label":"Book appointment",
-                "defaultUrl":"https://nyulangone.org/doctors/1881048197/ryan-j-chuang/appointment"
-              }
-            ]
+            "label": "Book appointment",
+            "defaultUrl": "https://nyulangone.org/doctors/1881048197/ryan-j-chuang/appointment"
           }
-        ],
-        "mapOptions": {
-          "center":{"lat":40.7796942,"lng":-72.9789299},
-          "fullscreenControl":true,
-          "mapTypeControl":false,
-          "streetViewControl":false,
-          "zoom":15,
-          "zoomControl":true,
-          "maxZoom":17,
+        ]
+      }
+    ],
+    "mapOptions": {
+      "center": {"lat": 40.7796942, "lng": -72.9789299},
+      "fullscreenControl": true,
+      "mapTypeControl": false,
+      "streetViewControl": false,
+      "zoom": 15,
+      "zoomControl": true,
+      "maxZoom": 17,
+
           "mapId":""
         },
         "mapsApiKey": "AIzaSyCSqSUblTo3HfhAlufDdxnVlwKH8IkAMjU",
@@ -514,23 +517,72 @@
           "distanceMatrix":false,
           "details":false,
           "actions":true
-        }
-      };
 
-      document.addEventListener('DOMContentLoaded', async () => {
-        try {
-          await customElements.whenDefined('gmpx-store-locator');
-          const locator = document.querySelector('gmpx-store-locator');
-          locator.configureFromQuickBuilder(CONFIGURATION);
-          locator.addEventListener('ready', () => {
-            document.getElementById('loading').classList.remove('active');
-          });
-        } catch (error) {
-          console.error('Error initializing store locator:', error);
-          document.getElementById('loading').classList.remove('active');
-          document.getElementById('error-message').style.display = 'block';
-        }
-      });
+
+
+
+
+    }
+  };
+
+  // Function to initialize the map
+  function initMap() {
+    const map = new google.maps.Map(document.getElementById("gmp-map-container"), CONFIGURATION.mapOptions);
+    
+    // Hide loading indicator once map is loaded
+    document.getElementById('loading').classList.remove('active');
+    
+    // Add marker for the location
+    const location = CONFIGURATION.locations[0];
+    const marker = new google.maps.Marker({
+      position: location.coords,
+      map: map,
+      title: location.title
+    });
+    
+    // Create an info window
+    const infoWindow = new google.maps.InfoWindow({
+      content: `
+        <div style="padding: 8px;">
+          <h3 style="margin-top: 0; margin-bottom: 8px;">${location.title}</h3>
+          <p style="margin: 0;">${location.address1}<br>${location.address2}</p>
+          <div style="margin-top: 8px;">
+            <a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
+              ${location.actions[0].label}
+            </a>
+          </div>
+        </div>
+      `
+    });
+    
+    // Open info window when marker is clicked
+    marker.addListener("click", () => {
+      infoWindow.open(map, marker);
+    });
+    
+    // Open info window by default
+    infoWindow.open(map, marker);
+  }
+
+  // Load the map on document ready
+  document.addEventListener('DOMContentLoaded', () => {
+    try {
+      // Ensure the Google Maps API is loaded
+      if (window.google && window.google.maps) {
+        initMap();
+      } else {
+        // If the API isn't loaded yet (unlikely with your current script), handle it
+        document.getElementById('loading').classList.remove('active');
+        document.getElementById('error-message').style.display = 'block';
+      }
+    } catch (error) {
+      console.error('Error initializing map:', error);
+      document.getElementById('loading').classList.remove('active');
+      document.getElementById('error-message').style.display = 'block';
+    }
+  });
+
+
     </script>
 </body>
 
