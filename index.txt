@@ -3,7 +3,26 @@
 <html class="html not-admin" lang="en-US">
 <head class="html"><!--Consider replacing images with optimized WebP versions for faster load times.-->
 
+<style type="text/css">
+        .social-links {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
+        .social-links__icon {
+            display: inline-block;
+        }
+
+        .social-links__icon__svg {
+            display: block;
+            width: 30px;
+            height: 30px;
+            fill: currentColor;
+        }
+    </style>
+    
+    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCWX23VR6P"></script>
 <script>
@@ -257,7 +276,7 @@
                         <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
                         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet"/>
                     </meta>
-                    <link rel="icon" type="image/svg+xml" href="https://ryanchuangmd.com/file.svg">
+                    <link rel="icon" href="favicon.ico" sizes="any">
                 </head>
                 <body class="home page-template-default page page-id-15 wp-custom-logo wp-embed-responsive full-width-content" id="body">
                     <header class="header">
@@ -278,7 +297,11 @@
                                     <!--li for patient testimonials and robotic surgery buttons go here-->
                                 </ul>
                             </div>
-                            <!--ul class contact button goes here-->
+                                                        <ul class="menu-item menu-item-type-post_type menu-item-object-page menu-item-686 contact-button" style="float:right;">
+                                <a href="https://nyulangone.org/doctors/1881048197/ryan-j-chuang" style="color: white; font-weight: bold;background-color: #363941; padding: 10px 15px; border-radius: 5px; text-decoration: none;">
+                                    Schedule Appointment
+                                </a>
+                            </ul>
                         </div>
                     </header>
                     <button aria-label="Open main menu" class="mobile-menu-button">
@@ -400,6 +423,8 @@
                                 <p class="has-text-align-center">
                                   Ryan J. Chuang, MD, MPhil - Urologist and Robotic Surgeon
                               </p>
+
+
                           </div>
                       </div>
 
@@ -428,17 +453,16 @@
                             </svg>
                         </a>
                         <a class="social-links__icon" href="https://scholar.google.com/citations?user=H1S-BFMAAAAJ" title="Visit Google Scholar Page">
-                            <svg class="social-links__icon__svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z">
-                                </path>
-                            </svg>
-                        </a>
-                    </div>
+                          <svg class="social-links__icon__svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"></path>
+                        </svg>
+                    </a>
                 </div>
-                <div class="footer__content__top__nav">
-                    <div class="footer__menu">
-                        <ul class="menu" id="menu-footer-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548" id="menu-item-1548">
+            </div>
+            <div class="footer__content__top__nav">
+                <div class="footer__menu">
+                    <ul class="menu" id="menu-footer-menu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548" id="menu-item-1548">
                                 <a href="https://ryanchuangmd.com/about/">
                                    About
                                </a>
