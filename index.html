@@ -490,47 +490,45 @@
 <script src="https://unpkg.com/@googlemaps/extended-component-library@0.4"></script>
 
 <script>
-// Configuration for the map and location
-  const CONFIGURATION = {
-    "locations": [
-      {
-        "title": "Ryan J. Chuang, MD, MPhil\nUrologist",
-        "address1": "100 Hospital Rd.",
-        "address2": "Patchogue, NY, United States",
-        "coords": {"lat": 40.7796942, "lng": -72.9789299},
-        "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
-        "actions": [
-          {
-            "label": "Schedule Appointment",
-            "defaultUrl": "https://nyulangone.org/doctors/1881048197/ryan-j-chuang/appointment"
+const CONFIGURATION = {
+  "locations": [
+    {
+      "title": "Ryan J. Chuang, MD, MPhil<br>Urologist",
+      "address1": "100 Hospital Rd.",
+      "address2": "Patchogue, NY, United States",
+      "coords": {"lat": 40.7796942, "lng": -72.9789299},
+      "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
+      "actions": [
+        {
+          "label": "Schedule Appointment",
+          "defaultUrl": "https://nyulangone.org/doctors/1881048197/ryan-j-chuang/appointment"
         },
         {
-            "label": "Get Directions",
-            "defaultUrl": "https://www.google.com/maps/dir/?api=1&destination=40.7797476,-72.9788106/100+Hospital+Road,+East+Patchogue,+NY/@40.7797302,-72.9813352,17z"
+          "label": "Get Directions",
+          "defaultUrl": "https://www.google.com/maps/dir/?api=1&destination=40.7797476,-72.9788106/100+Hospital+Road,+East+Patchogue,+NY/@40.7797302,-72.9813352,17z"
         }
-    ]
-}
-],
-"mapOptions": {
-  "center": {"lat": 40.7796942, "lng": -72.9789299},
-  "fullscreenControl": true,
-  "mapTypeControl": false,
-  "streetViewControl": false,
-  "zoom": 12,
-  "zoomControl": true,
-  "maxZoom": 17,
-
-  "mapId":""
-},
-"mapsApiKey": "AIzaSyCSqSUblTo3HfhAlufDdxnVlwKH8IkAMjU",
-"capabilities": {
-  "input":false,
-  "autocomplete":false,
-  "directions":true,
-  "distanceMatrix":false,
-  "details":false,
-  "actions":true
-}
+      ]
+    } // Removed the extra comma and square bracket here
+  ], // Correct closing bracket for the locations array
+  "mapOptions": {
+    "center": {"lat": 40.7796942, "lng": -72.9789299},
+    "fullscreenControl": true,
+    "mapTypeControl": false,
+    "streetViewControl": false,
+    "zoom": 12,
+    "zoomControl": true,
+    "maxZoom": 17,
+    "mapId":""
+  },
+  "mapsApiKey": "AIzaSyCSqSUblTo3HfhAlufDdxnVlwKH8IkAMjU",
+  "capabilities": {
+    "input":false,
+    "autocomplete":false,
+    "directions":true,
+    "distanceMatrix":false,
+    "details":false,
+    "actions":true
+  }
 };
 
   // Function to initialize the map
