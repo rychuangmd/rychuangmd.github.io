@@ -545,10 +545,10 @@ function initMap() {
     // Create an info window
     const infoWindow = new google.maps.InfoWindow({
       content: `
-const infoWindow = new google.maps.InfoWindow({
-  content: `
-    <div style="padding: 0 2px 2px 2px;"> {/* Modified padding-top to 0, kept padding-right, bottom, and left at 2px */}
-      <h3 style="margin-top: 0; margin-bottom: 2px; font-size: 14px;">${location.title}</h3>
+    const infoWindow = new google.maps.InfoWindow({
+      content: `
+    <div style="padding: 0 2px 2px 2px !important;"> {/* Added !important to padding */}
+      <h3 style="margin-top: 0 !important; margin-bottom: 2px; font-size: 14px;">${location.title}</h3> {/* Added !important to margin-top */}
       <p style="margin: 0;">${location.address1}<br>${location.address2}</p>
       <div style="margin-top: 2px;">
         <a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
