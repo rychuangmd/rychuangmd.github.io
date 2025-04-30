@@ -500,10 +500,6 @@ const CONFIGURATION = {
       "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
       "actions": [
         {
-          "label": "Schedule Appointment",
-          "defaultUrl": "https://nyulangone.org/doctors/1881048197/ryan-j-chuang/appointment"
-        },
-        {
           "label": "Get Directions",
           "defaultUrl": "https://www.google.com/maps/dir/?api=1&destination=40.7797476,-72.9788106/100+Hospital+Road,+East+Patchogue,+NY/@40.7797302,-72.9813352,17z"
         }
@@ -550,8 +546,8 @@ function initMap() {
     const infoWindow = new google.maps.InfoWindow({
       content: `
         <div style="padding: 2px;">
-          <h3 style="margin-top: 0; margin-bottom: 2px;">${location.title}</h3>
-          <p style="margin: 0;">${location.address1}<br>${location.address2}</p>
+          <h3 style="margin-top: 0; margin-bottom: 2px; font-size: 16px;">${location.title}</h3>
+          <p style="margin: 0; font-size: 14px;">${location.address1}<br>${location.address2}</p>
           <div style="margin-top: 2px;">
             <a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
               ${location.actions[0].label}
