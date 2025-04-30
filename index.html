@@ -495,7 +495,7 @@ const CONFIGURATION = {
     {
       "title": "Ryan J. Chuang, MD, MPhil<br>Urologist",
       "address1": "100 Hospital Rd.",
-      "address2": "Patchogue, NY, United States",
+      "address2": "Patchogue, NY 11772",
       "coords": {"lat": 40.7796942, "lng": -72.9789299},
       "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
       "actions": [
@@ -545,17 +545,19 @@ function initMap() {
     // Create an info window
     const infoWindow = new google.maps.InfoWindow({
       content: `
-        <div style="padding: 2px;">
-          <h3 style="margin-top: 0; margin-bottom: 2px; font-size: 16px;">${location.title}</h3>
-          <p style="margin: 0; font-size: 14px;">${location.address1}<br>${location.address2}</p>
-          <div style="margin-top: 2px;">
-            <a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
-              ${location.actions[0].label}
-            </a>
-          </div>
-        </div>
-          `
-      });
+const infoWindow = new google.maps.InfoWindow({
+  content: `
+    <div style="padding: 0 2px 2px 2px;"> {/* Modified padding-top to 0, kept padding-right, bottom, and left at 2px */}
+      <h3 style="margin-top: 0; margin-bottom: 2px; font-size: 14px;">${location.title}</h3>
+      <p style="margin: 0;">${location.address1}<br>${location.address2}</p>
+      <div style="margin-top: 2px;">
+        <a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
+          ${location.actions[0].label}
+        </a>
+      </div>
+    </div>
+  `
+});
     
     // Open info window when marker is clicked
     marker.addListener("click", () => {
