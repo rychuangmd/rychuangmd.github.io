@@ -156,16 +156,16 @@
         <link href="https://ryanchuangmd.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css" />
         <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/css/main.css?ver=1677882942" id="ryanchuangmd-css" media="all" rel="stylesheet" type="text/css" />
         <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd-child/style.css" id="child-style-css" media="all" rel="stylesheet" type="text/css" />
-        <script id="jquery-core-js" src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3" type="text/javascript">
+        <script id="jquery-core-js" defer src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3" type="text/javascript">
         </script>
-        <script id="jquery-migrate-js" src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" type="text/javascript">
+        <script id="jquery-migrate-js" defer src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" type="text/javascript">
         </script>
         <script id="scripts-js-extra" type="text/javascript">
         /* <![CDATA[ */
             
         /* ]]> */
         </script>
-        <script id="scripts-js" src="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/js/app.js?ver=6.2" type="text/javascript">
+        <script id="scripts-js" defer src="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/js/app.js?ver=6.2" type="text/javascript">
         </script>
         <link href="https://ryanchuangmd.com/wp-json/" rel="https://api.w.org/" />
         <link href="https://ryanchuangmd.com/wp-json/wp/v2/pages/15" rel="alternate" type="application/json" />
@@ -180,7 +180,7 @@
         <link href="https://fonts.googleapis.com" rel="preconnect" />
         <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet" />
-    </meta>
+    
     <link rel="icon" href="favicon.ico" sizes="any">
 </head>
 
@@ -412,8 +412,7 @@
                 <h3 class="footer-blurb__title">
                 </h3>
                 <p class="footer-blurb__description">
-                    <a href="https://goo.gl/maps" title="View Google map">
-                    </a>
+                    <a href="https://goo.gl/maps" title="View Google map">Google Map</a>
                 </p>
             </div>
         </div>
@@ -433,9 +432,7 @@
        <div class="footer__content__bottom__copyright">
         <p class="footer__copyright">
             ©2025 Ryan J. Chuang, MD, MPhil
-            <a class="footer__credit__link" href="https://ryanchuangmd.com" rel="nofollow" title="Visit website">
-
-            </a>
+            <a class="footer__credit__link" href="https://ryanchuangmd.com" rel="nofollow" title="Visit website">Website</a>
         </p>
     </div>
 </div>
@@ -543,8 +540,6 @@ function initMap() {
   });
     
     // Create an info window
-    const infoWindow = new google.maps.InfoWindow({
-      content: `
     const infoWindow = new google.maps.InfoWindow({
       content: `
     <div style="padding: 0 2px 2px 2px !important;"> {/* Added !important to padding */}
