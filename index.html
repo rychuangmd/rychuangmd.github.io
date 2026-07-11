@@ -42,6 +42,13 @@
             margin: 20px 0;
             display: none;
         }
+
+        /* Fix: the mobile-menu logo SVG's viewBox is sized for a small
+           graphic mark, not the full wordmark text it now contains, so
+           the theme's default clipping cuts off both ends of the text. */
+        .mobile-menu-container__logo__image {
+            overflow: visible;
+        }
     </style>
 
     <!-- Google tag (gtag.js) -->
@@ -147,7 +154,8 @@
     }
     </script>
     <!-- / Yoast SEO plugin. -->
-    <link href="https://ryanchuangmd.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://ryanchuangmd.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://ryanchuangmd.com/wp-includes/css/classic-themes.min.css?ver=6.2" id="classic-theme-styles-css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/css/main.css?ver=1677882942" id="ryanchuangmd-css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd-child/style.css" id="child-style-css" media="all" rel="stylesheet" type="text/css" />
     <script id="jquery-core-js" src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3" type="text/javascript"></script>
