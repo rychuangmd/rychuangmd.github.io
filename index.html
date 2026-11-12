@@ -1,591 +1,83 @@
-<!DOCTYPE html>
-<html class="html not-admin" lang="en-US">
-
-<head class="html">
-    <meta charset="UTF-8" />
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Physician",
-  "name": "Dr. Ryan Chuang",
-  "medicalSpecialty": [
-    "Urology",
-    "Urologic Oncology"
-  ],
-  "description": "Dr. Ryan Chuang is an esteemed urologist and surgeon renowned for his flawless surgical execution, elite hand-eye coordination, and profound clinical understanding. Utilizing cutting-edge robotic technology and advanced minimally invasive techniques, he consistently minimizes recovery times and maintains exceptionally low complication rates. Known for his deeply empathetic bedside manner, Dr. Chuang prioritizes patient comfort, privacy, and transparent communication, ensuring individuals feel empowered regarding their personalized treatment plans. A dedicated leader and mentor, he continuously integrates the latest evidence-based practices, multidisciplinary collaborations, and rigorous scientific logic into his highly successful clinical outcomes.",
-  "additionalProperty": [
-    {
-      "@type": "PropertyValue",
-      "name": "Bedside Manner",
-      "value": "Highly compassionate, empathetic, and patient-focused"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Professional Demeanor",
-      "value": "Calm under pressure, reassuring, and inherently respectful"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Patient Engagement",
-      "value": "Active listener who dedicates time to thoroughly address patient concerns"
-    }
-  ],
-
-  "knowsAbout": [
-    "Robotic-assisted urological surgery",
-    "Advanced prostate oncology and preventative care",
-    "Laser lithotripsy for complex kidney stones",
-    "Complex bladder disorder management",
-    "Chronic urological pain and pelvic floor disorders",
-    "Advanced urodynamic testing",
-    "Complex reconstructive urological surgeries",
-    "Enlarged prostate (BPH) modern therapies",
-    "Nerve-sparing oncological surgeries",
-    "Urinary incontinence interventions",
-    "Complex urinary tract infections and antibiotic stewardship",
-    "Precision laparoscopic surgery",
-    "Localized urological cancer margin optimization",
-    "Delicate cystoscopic evaluations",
-    "Advanced kidney condition management",
-    "Erectile dysfunction treatment",
-    "Adrenal gland disorder interventions",
-    "Testicular conditions and urgent urological care",
-    "Overactive bladder targeted therapies"
-  ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "David Geffen School of Medicine at the University of California, Los Angeles Department of Urology"
-  }
-}
-</script>
-    <style type="text/css">
-        .social-links {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .social-links__icon {
-            display: inline-block;
-        }
-
-        .social-links__icon__svg {
-            display: block;
-            width: 30px;
-            height: 30px;
-            fill: currentColor;
-        }
-
-        /* Location / map section */
-        .loading-container {
-            text-align: center;
-            padding: 40px;
-            display: none;
-        }
-
-        .loading-container.active {
-            display: block;
-        }
-
-        .error-message {
-            background-color: #fff3f3;
-            border: 1px solid #ffcaca;
-            color: #d32f2f;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 20px 0;
-            display: none;
-        }
-
-        /* Fix: the mobile-menu logo SVG's viewBox is sized for a small
-           graphic mark, not the full wordmark text it now contains, so
-           the theme's default clipping cuts off both ends of the text. */
-        .mobile-menu-container__logo__image {
-            overflow: visible;
-        }
-    </style>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCWX23VR6P"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-YCWX23VR6P');
-    </script>
-
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots" />
-    <!-- This site is optimized with the Yoast SEO plugin v20.4 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>New York’s Choice for Expert Urology Care | Robotic Surgery Specialist</title>
-    <meta content="Schedule an appointment with Dr. Ryan J. Chuang, a top urologist specializing in robotic prostate and kidney cancer treatments in New York." name="description">
-    <link href="https://ryanchuangmd.com/" rel="canonical" />
-    <meta content="en_US" property="og:locale" />
-    <meta content="website" property="og:type" />
-    <meta content="Ryan J. Chuang, MD, MPhil - Robotic Surgeon and Urologic Oncology" property="og:title" />
-    <meta content="Ryan J. Chuang - urologist specializing in prostate and renal cancer" property="og:description" />
-    <meta content="https://ryanchuangmd.com/" property="og:url" />
-    <meta content="Dr. Ryan J. Chuang, MD, MPhil" property="og:site_name" />
-    <meta content="2023-06-30T15:25:11+00:00" property="article:modified_time" />
-    <meta content="ryanchuangmd.com/robot.jpg" property="og:image" />
-    <meta content="7000" property="og:image:width" />
-    <meta content="4000" property="og:image:height" />
-    <meta content="image/jpeg" property="og:image:type" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="Est. reading time" name="twitter:label1" />
-    <meta content="1 minute" name="twitter:data1" />
-    <script class="yoast-schema-graph" type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "WebPage",
-                "@id": "https://ryanchuangmd.com/",
-                "url": "https://ryanchuangmd.com/",
-                "name": "Ryan J. Chuang - urologist specializing in prostate and renal cancer",
-                "isPartOf": { "@id": "https://ryanchuangmd.com/#website" },
-                "about": { "@id": "https://ryanchuangmd.com/#organization" },
-                "primaryImageOfPage": { "@id": "https://ryanchuangmd.com/#primaryimage" },
-                "image": { "@id": "https://ryanchuangmd.com/#primaryimage" },
-                "thumbnailUrl": "https://ryanchuangmd.com/robot.jpg",
-                "datePublished": "2023-06-30T16:38:21+00:00",
-                "dateModified": "2023-06-30T15:25:11+00:00",
-                "description": "Ryan J. Chuang - urologist specializing in prostate and renal cancer",
-                "breadcrumb": { "@id": "https://ryanchuangmd.com/#breadcrumb" },
-                "inLanguage": "en-US",
-                "potentialAction": [{ "@type": "ReadAction", "target": ["https://ryanchuangmd.com/"] }]
-            },
-            {
-                "@type": "ImageObject",
-                "inLanguage": "en-US",
-                "@id": "https://ryanchuangmd.com/#primaryimage",
-                "url": "https://ryanchuangmd.com/robot.jpg",
-                "contentUrl": "https://ryanchuangmd.com/robot.jpg",
-                "width": 7000,
-                "height": 4000,
-                "caption": "robotic surgery"
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://ryanchuangmd.com/#breadcrumb",
-                "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }]
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://ryanchuangmd.com/#website",
-                "url": "https://ryanchuangmd.com/",
-                "name": "Dr. Ryan J. Chuang, MD, MPhil",
-                "description": "Ryan J. Chuang - urologist specializing in prostate and renal cancer",
-                "publisher": { "@id": "https://ryanchuangmd.com/#organization" },
-                "potentialAction": [
-                    {
-                        "@type": "SearchAction",
-                        "target": { "@type": "EntryPoint", "urlTemplate": "https://ryanchuangmd.com/?s={search_term_string}" },
-                        "query-input": "required name=search_term_string"
-                    }
-                ],
-                "inLanguage": "en-US"
-            },
-            {
-                "@type": "Organization",
-                "@id": "https://ryanchuangmd.com/#organization",
-                "name": "Dr. Ryan J. Chuang, MD, MPhil",
-                "url": "https://ryanchuangmd.com/",
-                "logo": {
-                    "@type": "ImageObject",
-                    "inLanguage": "en-US",
-                    "@id": "https://ryanchuangmd.com/#/schema/logo/image/",
-                    "url": "https://ryanchuangmd.com/wp-content/uploads/2023/06/",
-                    "contentUrl": "https://ryanchuangmd.com/wp-content/uploads/2023/06/",
-                    "width": 1000,
-                    "height": 466,
-                    "caption": "Ryan J. Chuang, MD, MPhil"
-                },
-                "image": { "@id": "https://ryanchuangmd.com/#/schema/logo/image/" }
-            }
-        ]
-    }
-    </script>
-    <!-- / Yoast SEO plugin. -->
-    <link href="https://ryanchuangmd.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://ryanchuangmd.com/wp-includes/css/classic-themes.min.css?ver=6.2" id="classic-theme-styles-css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/css/main.css?ver=1677882942" id="ryanchuangmd-css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd-child/style.css" id="child-style-css" media="all" rel="stylesheet" type="text/css" />
-    <script id="jquery-core-js" src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3" type="text/javascript"></script>
-    <script id="jquery-migrate-js" src="https://ryanchuangmd.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" type="text/javascript"></script>
-    <script id="scripts-js" src="https://ryanchuangmd.com/wp-content/themes/ryanchuangmd/assets/js/app.js?ver=6.2" type="text/javascript"></script>
-    <link href="https://ryanchuangmd.com/wp-json/" rel="https://api.w.org/" />
-    <link href="https://ryanchuangmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fryanchuangmd.com%2F" rel="alternate" type="application/json+oembed" />
-    <link href="https://ryanchuangmd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fryanchuangmd.com%2F&amp;format=xml" rel="alternate" type="text/xml+oembed" />
-    <meta content="https://ryanchuangmd.com/wp-content/uploads/2021/10/cropped-@2x-270x270.jpg" name="msapplication-TileImage" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico" sizes="any">
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self'; img-src 'self' data: https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src https://www.google.com; font-src 'self'; manifest-src 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Ryan J. Chuang, MD, MPhil | Urologist in Patchogue &amp; Laurelton</title>
+  <meta name="description" content="Board-certified urologist Ryan J. Chuang, MD, MPhil specializes in minimally invasive prostate and kidney cancer treatment in Patchogue and Laurelton, NY.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://ryanchuangmd.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Ryan J. Chuang, MD, MPhil">
+  <meta property="og:title" content="Ryan J. Chuang, MD, MPhil | Urologist in Patchogue &amp; Laurelton">
+  <meta property="og:description" content="Board-certified urologist Ryan J. Chuang, MD, MPhil specializes in minimally invasive prostate and kidney cancer treatment in Patchogue and Laurelton, NY.">
+  <meta property="og:url" content="https://ryanchuangmd.com/">
+  <meta property="og:image" content="https://ryanchuangmd.com/headshot.jpg">
+  <meta property="og:image:alt" content="Ryan J. Chuang, MD, MPhil">
+  <meta property="og:image:width" content="634">
+  <meta property="og:image:height" content="859">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#1b3869">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/stylesheets/site.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ryanchuangmd.com/#website","url":"https://ryanchuangmd.com/","name":"Ryan J. Chuang, MD, MPhil","inLanguage":"en-US"},{"@type":"Person","@id":"https://ryanchuangmd.com/#physician","name":"Ryan J. Chuang","honorificSuffix":"MD, MPhil","jobTitle":"Urologist and Robotic Surgeon","url":"https://ryanchuangmd.com/about/","image":"https://ryanchuangmd.com/headshot.jpg","sameAs":["https://nyulangone.org/doctors/1881048197/ryan-j-chuang","https://linkedin.com/in/ryan-chuang/","https://scholar.google.com/citations?user=H1S-BFMAAAAJ"]},{"@type":"WebPage","@id":"https://ryanchuangmd.com/","url":"https://ryanchuangmd.com/","name":"Ryan J. Chuang, MD, MPhil | Urologist in Patchogue & Laurelton","description":"Board-certified urologist Ryan J. Chuang, MD, MPhil specializes in minimally invasive prostate and kidney cancer treatment in Patchogue and Laurelton, NY.","inLanguage":"en-US","isPartOf":{"@id":"https://ryanchuangmd.com/#website"},"about":{"@id":"https://ryanchuangmd.com/#physician"}}]}</script>
+  <script src="/assets/site.js" defer></script>
 </head>
+<body class="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open menu" hidden><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="main-navigation" aria-label="Main navigation"><ul class="nav-list">
+      <li><a href="/about/">About</a></li>
+      <li><a href="/education/">Education</a></li>
+    </ul></nav>
+    <a class="button appointment-link" href="https://nyulangone.org/doctors/1881048197/ryan-j-chuang">Schedule Appointment</a>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="home-hero" aria-labelledby="home-heading">
+  <picture><source type="image/webp" srcset="/assets/images/robot-800.webp 800w, /assets/images/robot-1280.webp 1280w, /assets/images/robot-1920.webp 1920w" sizes="100vw"><img src="/robot.jpg" alt="Robotic surgical system" width="1920" height="1097" fetchpriority="high" decoding="async"></picture>
 
-<body class="home page-template-default page page-id-15 wp-custom-logo wp-embed-responsive full-width-content" id="body">
-    <header class="header">
-        <div class="header__inner">
-            <div class="header__menu">
-                <ul class="menu" id="menu-primary-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47" id="menu-item-47">
-                        <a href="https://ryanchuangmd.com/about/">
-                            About
-                        </a>
-                    </li>
+  <div class="home-hero__overlay"></div>
+  <div class="home-hero__text"><div class="home-hero__text__inner">
+    <h1 class="home-hero__headline" id="home-heading">Ryan J. Chuang, MD, MPhil <br>
+      <em>Specializing in minimally-invasive treatment of prostate and kidney cancer.</em></h1>
+  </div></div>
+  <div class="hero-bottom"><svg class="hero-curve" viewBox="0 0 1601 38.93" aria-hidden="true" focusable="false"><path d="M0,38.93C175.14,16.35,463,0,788.5,0c340.81,0,640.42,14.53,812.5,38.93Z"/></svg><a class="home-hero__button" href="#locations" aria-label="View office maps"><svg viewBox="0 0 31 19" aria-hidden="true"><path d="M1 1l14.5 15L30 1" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></div>
+</section>
+<div class="container home-blurb"><p>Ryan J. Chuang, MD, MPhil - Urologist and Robotic Surgeon</p></div>
+<section class="map-section" id="locations" aria-label="Office maps">
+  <div class="container map-stack">
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.849884930641!2d-73.0101146!3d40.7653263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e849241d727cd5%3A0x1519474ba54cb9c4!2s196%20E%20Main%20St%2C%20Patchogue%2C%20NY%2011772!5e0!3m2!1sen!2sus!4v1794496079698!5m2!1sen!2sus" title="Google Map: 196 East Main Street, Patchogue, NY 11772" width="1200" height="500" loading="eager" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.8936578701905!2d-73.7420269!3d40.676311999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2640154e25eb3%3A0x1a3cb91ca4947d2b!2s228-02%20Merrick%20Blvd%2C%20Jamaica%2C%20NY%2011413!5e0!3m2!1sen!2sus!4v1794496215634!5m2!1sen!2sus" title="Google Map: 228-02 Merrick Boulevard, 1st Floor, Laurelton, NY 11413" width="1200" height="500" loading="eager" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</section>
 
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45" id="menu-item-45">
-                        <a href="https://ryanchuangmd.com/education/">
-                            Education
-                        </a>
-                    </li>
-                    <!--li for patient testimonials and robotic surgery buttons go here-->
-                </ul>
-            </div>
-            <ul class="menu-item menu-item-type-post_type menu-item-object-page menu-item-686 contact-button" style="float:right;">
-                <a href="https://nyulangone.org/doctors/1881048197/ryan-j-chuang" style="color: white; font-weight: bold;background-color: #363941; padding: 10px 15px; border-radius: 5px; text-decoration: none;">
-                    Schedule Appointment
-                </a>
-            </ul>
-        </div>
-    </header>
-    <button aria-label="Open main menu" class="mobile-menu-button">
-        <div class="mobile-menu-button__top">
-        </div>
-        <div class="mobile-menu-button__middle">
-        </div>
-        <div class="mobile-menu-button__bottom">
-        </div>
-    </button>
-    <div class="mobile-menu-container">
-        <svg class="mobile-menu-container__bg" preserveaspectratio="none" viewbox="0 0 375 812" xmlns="http://w3.org/2000/svg" xmlns:xlink="http://w3.org/1999/xlink">
-            <defs>
-                <clippath id="a">
-                    <rect fill="#fff" height="812" width="375">
-                    </rect>
-                </clippath>
-                <clippath id="b">
-                    <rect fill="#1b3869" height="812" transform="translate(0.417 0)" width="3631">
-                    </rect>
-                </clippath>
-                <radialgradient cx="0.5" cy="0.5" gradientunits="objectBoundingBox" id="c" r="0.5">
-                    <stop offset="0" stop-color="#4a7bc9">
-                    </stop>
-                    <stop offset="1" stop-color="#1b3768">
-                    </stop>
-                </radialgradient>
-            </defs>
-            <g clip-path="url(#a)">
-                <g transform="translate(-1601.064 -5073.849)">
-                    <g clip-path="url(#b)" transform="translate(-0.352 5073.849)">
-                        <rect fill="#1b3768" height="812" transform="translate(0.417 0)" width="3631">
-                        </rect>
-                        <ellipse cx="1617" cy="1380.5" fill="url(#c)" rx="1617" ry="1380.5" transform="translate(-813.583 -188)">
-                        </ellipse>
-                        <ellipse cx="1618.5" cy="1380.5" fill="url(#c)" rx="1618.5" ry="1380.5" transform="translate(1296.418 -228)">
-                        </ellipse>
-                    </g>
-                </g>
-            </g>
-        </svg>
-        <a class="mobile-menu-container__logo" href="https://ryanchuangmd.com" title="View">
-            <svg class="mobile-menu-container__logo__image" height="46.223" viewbox="0 0 133.979 46.223" width="133.979" xmlns="http://w3.org/2000/svg">
-                <text dominant-baseline="middle" text-anchor="middle" x="50%" y="50%">
-                    Ryan J. Chuang, MD, MPhil
-                </text>
-            </svg>
-        </a>
-        <nav class="menu-primary-menu-container">
-            <ul class="mobile-menu" id="menu-primary-menu-1">
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
-                    <a href="https://ryanchuangmd.com/about/">
-                       About
-                   </a>
-               </li>
-
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
-                <a href="https://ryanchuangmd.com/education/">
-                   Education
-               </a>
-           </li>
-           <!--li for patient testimonials and robotic surgery buttons go here-->
-       </ul>
-   </nav>
-   <!--contact us button goes here-->
-</div>
-<main class="main" role="main">
-    <div class="main__inner">
-        <article>
-            <section class="home-hero" id="home-hero-block_9c8c9a6b404cb30a10ebe09630b6d9fc">
-                <div class="home-hero__inner">
-                    <div class="home-hero__gallery-wrapper">
-                        <figure class="home-hero__gallery">
-                            <img alt="Ryan J. Chuang, MD, MPhil - robotics" class="home-hero__gallery__image" decoding="async" src="https://ryanchuangmd.com/robot.jpg" />
-                        </figure>
-                    </div>
-                    <div class="home-hero__overlay">
-                    </div>
-                    <div class="home-hero__text">
-                        <div class="home-hero__text__inner">
-                            <h1 class="home-hero__headline">
-                              Ryan J. Chuang, MD, MPhil
-                              <br/>
-                              <em class="has-text-align-center">
-                               Specializing in minimally-invasive treatment of prostate and kidney cancer
-                           </em>
-                       </h1>
-                   </div>
-               </div>
-               <div class="home-hero__bottom">
-                <svg class="home-hero__shape" viewbox="0 0 1601 38.93" xmlns="http://w3.org/2000/svg">
-                    <path d="M0,38.93C175.14,16.35,463,0,788.5,0c340.81,0,640.42,14.53,812.5,38.93Z">
-                    </path>
-                </svg>
-                <button aria-label="Scroll to next section" class="home-hero__button">
-                    <svg class="home-hero__button__arrow" viewbox="0 0 31.113 16.971" xmlns="http://w3.org/2000/svg">
-                        <g transform="translate(23.335 -1137.735) rotate(45)">
-                            <rect height="2" transform="translate(789 820)" width="22">
-                            </rect>
-                            <rect height="2" transform="translate(811 800) rotate(90)" width="22">
-                            </rect>
-                        </g>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </section>
-    <div class="block bg-home-intro-gradient block--reduced-top-padding" id="block-block_45c037af97f6737be55f6ce90770c5f0">
-        <div class="block__inner">
-            <style>
-                @media screen and (min-width: 1440px) {
-                    #single-column-block_434e0cb12b1e746fe5e9ec251258543c .single-column__inner {
-                        grid-column: 4 / span 6;
-                    }
-                }
-            </style>
-            <div class="single-column" id="single-column-block_434e0cb12b1e746fe5e9ec251258543c">
-                <div class="single-column__inner">
-                    <p class="has-text-align-center">
-                        Ryan J. Chuang, MD, MPhil - Urologist and Robotic Surgeon
-                    </p>
-                </div>
-            </div>
-
-            <div aria-hidden="true" class="wp-block-spacer" style="height:20px">
-            </div>
-
-            <div aria-hidden="true" class="wp-block-spacer hide-on-mobile" style="height:40px">
-            </div>
-
-            <div class="loading-container active" id="loading">
-                <p>Loading location information...</p>
-            </div>
-
-            <div class="error-message" id="error-message">
-                Unable to load the location map. Please refresh the page or try again later.
-            </div>
-
-            <div id="gmp-map-container" style="height: 500px; width: 100%;"></div>
-        </div>
-    </div>
-</article>
-</div>
 </main>
-<footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <div class="footer__content__top">
-                <div class="footer__content__top__social">
-                    <div class="social-links">
-                        <a class="social-links__icon" href="https://linkedin.com/in/ryan-chuang/" title="Visit LinkedIn Profile">
-                            <svg class="social-links__icon__svg" viewbox="0 0 39 39" xmlns="http://w3.org/2000/svg">
-                                <path d="M29,21.28V28H25.07V21.73c0-1.58-.57-2.65-2-2.65a2.15,2.15,0,0,0-2,1.43,2.65,2.65,0,0,0-.13,1V28H17s.05-10.62,0-11.72h3.93v1.66l0,0h0v0A3.91,3.91,0,0,1,24.47,16C27.06,16,29,17.68,29,21.28ZM12.52,10C11,10,10,10.86,10,12a2.18,2.18,0,0,0,2.46,2h0C14,14,15,13.11,15,12S14,10,12.52,10ZM10,28h4V16H10Z">
-                                </path>
-                            </svg>
-                        </a>
-                        <a class="social-links__icon" href="https://scholar.google.com/citations?user=H1S-BFMAAAAJ" title="Visit Google Scholar Page">
-                            <svg class="social-links__icon__svg" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer__content__top__nav">
-                    <div class="footer__menu">
-                        <ul class="menu" id="menu-footer-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548" id="menu-item-1548">
-                                <a href="https://ryanchuangmd.com/about/">
-                                 About
-                             </a>
-                         </li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1551" id="menu-item-1551">
-                            <a href="https://ryanchuangmd.com/education/">
-                             Education
-                         </a>
-                     </li>
-                     <!--patient testimonials, robotic surgery, contact-->
-                 </ul>
-             </div>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="social-links">
+        <a class="social-link" href="https://linkedin.com/in/ryan-chuang/" aria-label="LinkedIn profile" title="LinkedIn profile">
+          <svg viewbox="0 0 39 39" width="30" height="30" aria-hidden="true" focusable="false"><path d="M29,21.28V28H25.07V21.73c0-1.58-.57-2.65-2-2.65a2.15,2.15,0,0,0-2,1.43,2.65,2.65,0,0,0-.13,1V28H17s.05-10.62,0-11.72h3.93v1.66l0,0h0v0A3.91,3.91,0,0,1,24.47,16C27.06,16,29,17.68,29,21.28ZM12.52,10C11,10,10,10.86,10,12a2.18,2.18,0,0,0,2.46,2h0C14,14,15,13.11,15,12S14,10,12.52,10ZM10,28h4V16H10Z"></path></svg>
+        </a>
+        <a class="social-link" href="https://scholar.google.com/citations?user=H1S-BFMAAAAJ" aria-label="Google Scholar profile" title="Google Scholar profile">
+          <svg viewbox="0 0 24 24" width="30" height="30" aria-hidden="true" focusable="false"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"></path></svg>
+        </a>
+      </div>
 
-         </div>
-     </div>
-     <div class="footer__content__middle">
-        <div class="footer__content__locations">
-            <div class="footer-blurb">
-                <h3 class="footer-blurb__title">
-                </h3>
-                <p class="footer-blurb__description">
-                    <a href="https://goo.gl/maps" title="View Google map">
-                    </a>
-                </p>
-            </div>
-        </div>
+      <nav aria-label="Footer navigation"><ul class="footer-links"><li><a href="/about/">About</a></li><li><a href="/education/">Education</a></li></ul></nav>
     </div>
-    <div class="footer__content__bottom">
-        <div class="footer__content__bottom__nav">
-            <div class="footer__legal-menu">
-                <ul class="menu" id="menu-legal">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136" id="menu-item-136">
-                        <a href="https://ryanchuangmd.com/terms-of-use/">
-                           Terms of Use
-                       </a>
-                   </li>
-               </ul>
-           </div>
-       </div>
-       <div class="footer__content__bottom__copyright">
-        <p class="footer__copyright">
-            ©2025 Ryan J. Chuang, MD, MPhil
-            <a class="footer__credit__link" href="https://ryanchuangmd.com" rel="nofollow" title="Visit website">
-
-            </a>
-        </p>
-    </div>
-</div>
-</div>
-</div>
+    <div class="footer-bottom"><a href="/terms-of-use/">Terms of Use</a><p>© 2026 Ryan J. Chuang, MD, MPhil</p></div>
+  </div>
 </footer>
-
-<style id="core-block-supports-inline-css" type="text/css">
-    .wp-container-4.wp-container-4 {
-        flex-wrap: nowrap;
-    }
-</style>
-
-<!-- Google Maps JavaScript API - single load, powers the marker + info window below.
-     This is a plain Maps JS API key/embed, not the Business Profile "store locator"
-     widget, so it works fine without a Google Business Profile. -->
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSqSUblTo3HfhAlufDdxnVlwKH8IkAMjU&callback=initMap&v=weekly"></script>
-
-<script>
-// Map initialization
-    const CONFIGURATION = {
-        "locations": [
-            {
-                "title": "Ryan J. Chuang, MD, MPhil<br><br>Urologist",
-                "address1": "100 Hospital Rd.",
-                "address2": "Patchogue, NY 11772",
-                "coords": {"lat": 40.7796942, "lng": -72.9789299},
-                "placeId": "ChIJx_QS59t7wokR9GHHkDCM9lY",
-                "actions": [
-                    {
-                        "label": "Get Directions",
-                        "defaultUrl": "https://www.google.com/maps/dir/?api=1&destination=40.7797476,-72.9788106/100+Hospital+Road,+East+Patchogue,+NY/@40.7797302,-72.9813352,17z"
-                    }
-                ]
-            }
-        ],
-        "mapOptions": {
-            "center": {"lat": 40.7796942, "lng": -72.9789299},
-            "fullscreenControl": true,
-            "mapTypeControl": false,
-            "streetViewControl": true,
-            "zoom": 12,
-            "zoomControl": true,
-            "maxZoom": 17
-        },
-        "mapsApiKey": "AIzaSyCSqSUblTo3HfhAlufDdxnVlwKH8IkAMjU",
-        "capabilities": {
-            "input": false,
-            "autocomplete": false,
-            "directions": true,
-            "distanceMatrix": false,
-            "details": false,
-            "actions": true
-        }
-    };
-
-// Function to initialize the map
-    function initMap() {
-        try {
-            const map = new google.maps.Map(document.getElementById("gmp-map-container"), CONFIGURATION.mapOptions);
-
-// Hide loading indicator once map is loaded
-            document.getElementById('loading').classList.remove('active');
-
-// Add marker for the location
-            const location = CONFIGURATION.locations[0];
-            const marker = new google.maps.Marker({
-                position: location.coords,
-                map: map,
-                title: location.title
-            });
-
-// Create an info window
-            const infoWindow = new google.maps.InfoWindow({
-                content: `
-<div style="padding: 8px;">
-<h3 style="margin-top: 0; margin-bottom: 5px; font-size: 16px;">${location.title}</h3>
-<p style="margin: 0;">${location.address1}<br>${location.address2}</p>
-<div style="margin-top: 8px;">
-<a href="${location.actions[0].defaultUrl}" style="color: #132C80; text-decoration: none; font-weight: bold;">
-                    ${location.actions[0].label}
-</a>
-</div>
-</div>
-                    `
-                });
-
-// Open info window when marker is clicked
-            marker.addListener("click", () => {
-                infoWindow.open(map, marker);
-            });
-
-// Open info window by default
-            infoWindow.open(map, marker);
-        } catch (error) {
-            console.error('Error initializing map:', error);
-            document.getElementById('loading').classList.remove('active');
-            document.getElementById('error-message').style.display = 'block';
-        }
-    }
-
-// Mobile menu functionality
-    document.addEventListener('DOMContentLoaded', () => {
-        const mobileMenuButton = document.querySelector('.mobile-menu-button');
-        const mobileMenuContainer = document.querySelector('.mobile-menu-container');
-
-        if (mobileMenuButton && mobileMenuContainer) {
-            mobileMenuButton.addEventListener('click', () => {
-                const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
-                mobileMenuContainer.setAttribute('aria-hidden', isExpanded);
-                mobileMenuContainer.style.display = isExpanded ? 'none' : 'block';
-
-// Toggle button appearance
-                if (!isExpanded) {
-                    mobileMenuButton.classList.add('is-active');
-                } else {
-                    mobileMenuButton.classList.remove('is-active');
-                }
-            });
-        }
-    });
-</script>
-
 </body>
-
 </html>
